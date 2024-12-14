@@ -1,0 +1,164 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    
+
+        font-family: "Poiret One", sans-serif;
+        font-style: normal;
+        background-color:#210011;
+
+      
+}
+.container{
+
+    padding: 50px;
+   
+
+}
+.section-one{
+    
+
+    background-image:url('wallpaperflare.com_wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 97%;
+    height:350px ;
+    
+    
+
+    color: rgb(26, 22, 22);
+   
+    border-radius: 30px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    
+
+}
+.section-one__contact{
+
+    background-color: #3c150d;
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 8%;
+    display: inline-block;
+    margin-top: 10px;
+}
+.section-one__contact:hover{
+
+    box-shadow: 0 0 5px rgb(19, 19, 19),
+    0 0 25px rgb(189, 8, 8),0 0 50px orangered,
+    0 0 100px rgb(213, 80, 32),0 0 200px orangered;
+}
+.section-one__name{
+
+    background-color: black;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    padding: 20px 40px ;
+
+    background-clip: text;
+
+
+    background-position: center;
+        font-family: "Young Serif", serif;
+      
+    font-size: 50px;
+
+}
+.section-one__role{
+    font-size: 27px;
+    margin-top: 10px;
+}
+.section-two,.section-three,.section-four,.section-five{
+
+    margin-top: 20px;
+}
+.section-two__desc,.section-three__desc,.section-four__desc,.section-five__desc{
+
+ color: white;
+    margin-top: 10px;
+}
+
+.section-five{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section-five__title a{
+
+    color: blueviolet;
+}
+
+.section-three li,.section-four li{
+
+    list-style: none;
+}
+
+.section-three{
+    background-color:#FF451C;
+    color: black;
+    padding: 20px;
+    
+    border-radius: 10px;
+    height: 200px;
+    
+    vertical-align: top;
+    display: inline-block;
+}
+.section-four{
+
+    background-color: #FF451C;
+    color: black;
+    padding: 20px;
+    
+    border-radius: 10px;
+    height: 200px;
+    
+    vertical-align:top;
+    display: inline-block;
+}
+.contact-form{
+
+    margin-top: 20px;
+}
+.contact-form__input,.contact-form__textArear,.contact-form__submit{
+
+    margin-top: 10px;
+}
+
+.contact-form__input{
+    padding: 10px;
+    border: none;
+    border-bottom: solid rgb(174, 65, 18) 1px;
+}
+.contact-form__submit{
+    padding-top: 10px;
+    color: white;
+    
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #5c2706ea;
+}
+
+
+.contact-form,#name,
+#email,
+#message {
+    color: rgb(248, 231, 231) !important;
+}
